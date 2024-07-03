@@ -1,0 +1,61 @@
+## Selecteer alles
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select * where {
+  ?s ?p ?o ;
+} 
+
+
+## Selecteer alle personen
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select * where {
+  ?s a schema:Person ;
+} 
+
+
+## Selecteer alle personen en waar aanwezig hun naam
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select distinct * where {
+  ?s a schema:Person .
+  OPTIONAL { ?s rdfs:label ?naam }   
+} 
+
+
+## Selecteer alle organisatie EN diegene die voor hun werken
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select distinct * where {
+  ?s a schema:Organization .
+    ?persoon schema:worksFor ?s .
+} 
+
+
+## Selecteer alle skills (en wie ze hebben)
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select distinct * where {
+ ?s schema:skills ?o .
+} 
+
+
+## Selecter alle FysiekeObjecte en waar aanwezig hun eigenaar
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix nen2660: <https://w3id.org/nen2660/def#>
+select distinct * where {
+ ?s a nen2660:PhysicalObject .
+  OPTIONAL { ?s schema:owns ?eigenaar }
+} 
+
+
+## Selecter alles wat een FoundingDate heeft en filter op een datum
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix nen2660: <https://w3id.org/nen2660/def#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+select distinct * where {
+ ?s schema:foundingDate ?datum .
+  FILTER (schema:foundingDate < "1999-01-01"^^xsd:date)
+} 
