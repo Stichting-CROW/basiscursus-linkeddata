@@ -1,0 +1,32 @@
+# Selecteer alle Fysieke Objecten EN hun onderdelen
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix nen2660: <https://w3id.org/nen2660/def#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+select * where {
+ ?s ?p nen2660:PhysicalObject .
+  OPTIONAL {?s nen2660:hasPart ?o }.
+} 
+
+
+# Laat alles zien wat er over jou bekend is
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix nen2660: <https://w3id.org/nen2660/def#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+DESCRIBE * where {
+ <http://rik.ik/RO> ?p ?o .
+} 
+
+
+# Laat iedereen zien die een auto heeft
+prefix schema: <https://schema.org/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix nen2660: <https://w3id.org/nen2660/def#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+select ?autoEigenaar ?naam where {
+    ?autoEigenaar schema:owns ?o ;
+                  rdfs:label ?naam .
+  FILTER(LANG(?naam) = "nl")
+    ?o a schema:Car .
+} 
