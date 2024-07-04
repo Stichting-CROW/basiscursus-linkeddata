@@ -40,7 +40,7 @@ select distinct * where {
 } 
 
 
-## Selecter alle FysiekeObjecte en waar aanwezig hun eigenaar
+## Selecter alle FysiekeObjecten en waar aanwezig hun eigenaar
 prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix nen2660: <https://w3id.org/nen2660/def#>
