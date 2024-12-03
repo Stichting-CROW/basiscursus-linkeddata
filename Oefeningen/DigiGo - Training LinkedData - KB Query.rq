@@ -1,0 +1,16 @@
+# Endpoint: http://data.bibliotheken.nl/sparql
+# YasGUI uitwerking: https://api.triplydb.com/s/zFHLXJvwe 
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?s schema:numberOfPages ?o .
+  FILTER (?o = "300"^^xsd:integer)
+  ?s schema:inLanguage "de" .
+  ?s schema:name ?name .
+  ?s schema:author ?author .
+  ?author schema:name ?authorName
+  FILTER (STRSTARTS(?authorName, "I"))
+} LIMIT 1000
