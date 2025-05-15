@@ -35,9 +35,8 @@ Op deze plek is het cursusmateriaal en zijn de hyperlinks te vinden die behoren 
 | [sparql.dev](https://sparql.dev/)                                                                           | Alles om SPARQL te leren                                                |
 | [sparql-murder-mystery.lindeman.it](https://sparql-murder-mystery.lindeman.it/)                             | SPARQL leerspel                                                         |
 
-| CROW LinkedData                                                                                          |                                                         |
+| CROW LinkedData                                                                                   |                                                         |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-
 | [viewer.apps.crow.nl](https://viewer.apps.crow.nl/)                                               | Overzicht van alle CROW model viewers                   |
 | [begrippen.crow.nl](https://begrippen.crow.nl)                                                    | Alle CROW thesauri                                      |
 | [crow.nl/imbor](https://www.crow.nl/kennisproducten/imbor/)                                       | IMBOR2025 als (Linked)Data                              |
