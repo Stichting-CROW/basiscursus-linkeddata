@@ -1,6 +1,6 @@
 # Basiscursus LinkedData
 
-Op deze plek is het cursusmateriaal en zijn de hyperlinks te vinden die behoren bij de: ['Basiscursus LinkedData'][opleiding] te vinden van de [CROW Academie][academie].
+Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij de: ['Basiscursus LinkedData'][opleiding] van de [CROW Academie][academie].
 
 ## Materiaal voor oefeningen
 
