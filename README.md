@@ -15,9 +15,9 @@ Op deze plek is het cursusmateriaal en zijn de hyperlinks te vinden die behoren 
 | Oefening 4 | `http://data.bibliotheken.nl/sparql`                                       |
 
 
-[oefening1]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/805895640c094b1dfd2653b94da565eab8307f61/Oefeningen/Oefening1-voorbeeld.txt
-[oefening2.1]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/805895640c094b1dfd2653b94da565eab8307f61/Oefeningen/Oefening2.1-voorbeeld.txt
-[oefening2.2]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/805895640c094b1dfd2653b94da565eab8307f61/Oefeningen/Oefening2.2-voorbeeld.txt
+[oefening1]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/refs/heads/main/Oefeningen/Oefening1-voorbeeld.txt
+[oefening2.1]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/refs/heads/main/Oefeningen/Oefening2.1-voorbeeld.ttl
+[oefening2.2]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/refs/heads/main/Oefeningen/Oefening2.2-voorbeeld.ttl
 
 ## Relevante links
 
