@@ -1,0 +1,28 @@
+Subject > Predicate > Object
+
+Rikmer > type          > Person
+Rikmer > label         > Rikmer
+Rikmer > hasOccupation > Trainer
+Rikmer > worksFor      > CROW
+Rikmer > owns          > RikmerBike
+
+Trainer > type      > Occupation
+Trainer > labelNL   > Cursusleider
+Trainer > labelEN   > Trainer
+Trainer > skills    > LinkedData, Semantic Web
+
+CROW > type         > Organization
+CROW > labelNL      > Kennisplatform CROW
+CROW > labelEN      > Knowledgeplatform CROW
+CROW > foundingDate > 1987-04-21
+
+RikmerBike > type      > Vehicle
+RikmerBike > type      > PhysicalObject
+RikmerBike > labelNL   > Mijn grijze fiets met zachte band
+RikmerBike > labelEN   > My gray bicycle with soft tire
+RikmerBike > hasPart   > RikmerBikeFrontTire
+RikmerBike > hasPart   > RikmerBikeBackTire
+
+RikmerBikeFrontTire > label > Voorwiel
+
+RikmerBikeBackTire > label  > Achterwiel

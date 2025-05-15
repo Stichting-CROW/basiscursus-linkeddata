@@ -1,0 +1,28 @@
+@prefix me: <http://rik.ik/> .
+@prefix rdf: <http://www.w3.org/TR/rdf-syntax-grammar> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nen2660: <https://w3id.org/nen2660/def#> .
+@prefix schema: <http://schema.org/> .
+
+me:RO a schema:Person ;
+    rdfs:label "Rik" ;
+    schema:hasOccupation me:Tr ;
+    schema:worksFor me:CROW ;
+    schema:owns me:RObike .
+
+me:Tr a schema:Occupation ;
+    rdfs:label "Cursusleider"@nl, "Trainer"@en ;
+    schema:skills "LinkedData, Semantic Web" .
+
+<www.crow.nl> a schema:Organization ;
+    rdfs:label "Kennisplatform CROW"@nl, "Knowledgeplatform CROW"@en ;
+    schema:foundingDate "1987-04-21"^^xsd:date .
+
+me:RObike a schema:Vehicle, nen2660:PhysicalObject ;
+    rdfs:label "Mijn grijze fiets met zachte band"@nl, "My gray bicycle with soft tire"@nl ;
+    nen2660:hasPart me:RObikeFT, me:RObikeBT .
+
+me:RObikeFT rdfs:label "Voorwiel"@nl .
+
+me:RObikeBT rdfs:label "Achterwiel"@nl .

@@ -1,7 +1,8 @@
 ## Selecteer alles
 prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-select * where {
+select * 
+where {
   ?s ?p ?o ;
 } 
 
@@ -9,7 +10,8 @@ select * where {
 ## Selecteer alle personen
 prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-select * where {
+select * 
+where {
   ?s a schema:Person ;
 } 
 
@@ -17,7 +19,8 @@ select * where {
 ## Selecteer alle personen en waar aanwezig hun naam
 prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-select distinct * where {
+select distinct * 
+where {
   ?s a schema:Person .
   OPTIONAL { ?s rdfs:label ?naam }   
 } 
@@ -26,7 +29,8 @@ select distinct * where {
 ## Selecteer alle organisatie EN diegene die voor hun werken
 prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-select distinct * where {
+select distinct * 
+where {
   ?s a schema:Organization .
     ?persoon schema:worksFor ?s .
 } 
@@ -35,7 +39,8 @@ select distinct * where {
 ## Selecteer alle skills (en wie ze hebben)
 prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-select distinct * where {
+select distinct * 
+where {
  ?s schema:skills ?o .
 } 
 
@@ -44,7 +49,8 @@ select distinct * where {
 prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix nen2660: <https://w3id.org/nen2660/def#>
-select distinct * where {
+select distinct * 
+where {
  ?s a nen2660:PhysicalObject .
   OPTIONAL { ?s schema:owns ?eigenaar }
 } 
@@ -55,7 +61,8 @@ prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix nen2660: <https://w3id.org/nen2660/def#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-select distinct * where {
+select distinct * 
+where {
  ?s schema:foundingDate ?datum .
   FILTER (schema:foundingDate < "1999-01-01"^^xsd:date)
 } 
