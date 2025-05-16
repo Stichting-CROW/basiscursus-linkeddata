@@ -1,0 +1,19 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://example.org/> .
+
+:Provincie a rdfs:Class ; rdfs:label "Provincie"@nl .
+:Plaats a rdfs:Class ; rdfs:label "Plaats"@nl .
+:Persoon a rdfs:Class ; rdfs:label "Persoon"@nl .
+:Boek a rdfs:Class ; rdfs:label "Boek"@nl .
+
+:NH a :Provincie ; :naam "Noord-Holland"@nl ; :bevat :Alkmaar , :Haarlem .
+
+:Haarlem a :Plaats ; rdfs:label "Haarlem"@nl .
+:Alkmaar a :Plaats ; rdfs:label "Alkmaar"@nl .
+
+:Alma a :Persoon ; :voornaam "Alma" ; :woont_in :Alkmaar .
+:HM a :Persoon ; :voornaam "Harry" ; :naam "Mulisch" ; :geboren_te :Haarlem .
+
+:Boek1 a :Boek ; :auteur :HM ; :titel "Siegfried"@nl .
