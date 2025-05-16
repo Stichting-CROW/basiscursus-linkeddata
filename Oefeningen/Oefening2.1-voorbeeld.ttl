@@ -16,10 +16,10 @@ me:Tr			rdfs:label				"Cursusleider"@nl .
 me:Tr			rdfs:label				"Trainer"@en .
 me:Tr			schema:skills			"LinkedData, Semantic Web" .
 
-<www.crow.nl>	a						schema:Organization .	
-<www.crow.nl>	rdfs:label				"Kennisplatform CROW"@nl .	
-<www.crow.nl>	rdfs:label				"Knowledgeplatform CROW"@en .
-<www.crow.nl>	schema:foundingDate		"1987-04-21"^^xsd:date . 
+<https://www.crow.nl>	a						schema:Organization .
+<https://www.crow.nl>	rdfs:label				"Kennisplatform CROW"@nl .
+<https://www.crow.nl>	rdfs:label				"Knowledge platform CROW"@en .
+<https://www.crow.nl>	schema:foundingDate		"1987-04-21"^^xsd:date . 
 
 me:RMbike		a						schema:Vehicle .
 me:RMbike		a						nen2660:PhysicalObject .
@@ -30,4 +30,4 @@ me:RMbike		nen2660:hasPart			me:RMbikeBT .
 
 me:RMbikeFT		rdfs:label				"Voorwiel"@nl .
  
-me:RMbikeBT 	rdfs:label				"Achterwiel"@nl . 
+me:RMbikeBT 	rdfs:label				"Achterwiel"@nl .

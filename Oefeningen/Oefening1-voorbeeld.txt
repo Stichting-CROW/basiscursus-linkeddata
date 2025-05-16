@@ -13,8 +13,8 @@ Trainer > skills    > LinkedData, Semantic Web
 
 CROW > type         > Organization
 CROW > labelNL      > Kennisplatform CROW
-CROW > labelEN      > Knowledgeplatform CROW
-CROW > foundingDate > 1987-04-21
+CROW > labelEN      > Knowledge platform CROW
+CROW > foundingDate > 21 april 1987
 
 RikmerBike > type      > Vehicle
 RikmerBike > type      > PhysicalObject

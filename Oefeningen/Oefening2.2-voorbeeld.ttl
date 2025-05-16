@@ -5,24 +5,24 @@
 @prefix nen2660: <https://w3id.org/nen2660/def#> .
 @prefix schema: <http://schema.org/> .
 
-me:RO a schema:Person ;
-    rdfs:label "Rik" ;
+me:RM a schema:Person ;
+    rdfs:label "Rikmer" ;
     schema:hasOccupation me:Tr ;
     schema:worksFor me:CROW ;
-    schema:owns me:RObike .
+    schema:owns me:RMbike .
 
 me:Tr a schema:Occupation ;
     rdfs:label "Cursusleider"@nl, "Trainer"@en ;
     schema:skills "LinkedData, Semantic Web" .
 
-<www.crow.nl> a schema:Organization ;
-    rdfs:label "Kennisplatform CROW"@nl, "Knowledgeplatform CROW"@en ;
+<https://www.crow.nl> a schema:Organization ;
+    rdfs:label "Kennisplatform CROW"@nl, "Knowledge platform CROW"@en ;
     schema:foundingDate "1987-04-21"^^xsd:date .
 
-me:RObike a schema:Vehicle, nen2660:PhysicalObject ;
+me:RMbike a schema:Vehicle, nen2660:PhysicalObject ;
     rdfs:label "Mijn grijze fiets met zachte band"@nl, "My gray bicycle with soft tire"@nl ;
-    nen2660:hasPart me:RObikeFT, me:RObikeBT .
+    nen2660:hasPart me:RMbikeFT, me:RMbikeBT .
 
-me:RObikeFT rdfs:label "Voorwiel"@nl .
+me:RMbikeFT rdfs:label "Voorwiel"@nl .
 
-me:RObikeBT rdfs:label "Achterwiel"@nl .
+me:RMbikeBT rdfs:label "Achterwiel"@nl .
