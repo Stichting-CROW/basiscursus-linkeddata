@@ -11,6 +11,7 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 |            | [Geoptimaliseerd Turtle voorbeeld][oefening2.2]                  |
 |            | [Online Turtle Editor][turtle-web-editor]                        |
 |            | [Data uploaden][upload]                                          |
+|            | [Samengestelde Knowledge Graph][graaf-verkenner]                 |
 | Oefening 3 | [Online SPARQL Editor][yasgui]                                   |
 |            | `https://api.datasets.crow.nl/datasets/Basiscursus-LD/kg/sparql` |
 | Oefening 4 | `http://data.bibliotheken.nl/sparql`                             |
@@ -23,6 +24,7 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 [oefening2.2]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/refs/heads/main/Oefeningen/Oefening2.2-voorbeeld.ttl
 [cheatsheet]: https://docs.crow.nl/basiscursus-linkeddata/cheatsheet
 [upload]: https://docs.crow.nl/basiscursus-linkeddata-upload/
+[graaf-verkenner]: https://docs.crow.nl/basiscursus-linkeddata-explore/
 
 ## Relevante links
 
