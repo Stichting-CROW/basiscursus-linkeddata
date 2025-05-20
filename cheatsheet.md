@@ -37,7 +37,7 @@
 
 ## Standaardvocabularia
 
-Een selectie van veelgebruikte namespaces en de meest saillante definities uit die vocabularia.
+Een selectie van veelgebruikte namespaces en de meest belangrijke definities uit die vocabularia.
 
 - `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>`
   - `rdf:type`: klasse van subject
@@ -109,7 +109,7 @@ De meest belangrijke serialisatieformaten zijn:
 Er zijn ook serialisatieformaten die quads uitdrukken:
 
 | Triple      | Quad      | Opmerking                      |
-| ----------- | --------- | ------------------------------ |
+|-------------|-----------|--------------------------------|
 | [Turtle]    | [TriG]    | Menselijk leesbaar             |
 | [N-Triples] | [N-Quads] | Uitgeschreven triples of quads |
 | [JSON-LD]   | [JSON-LD] | JSON-gebaseerd                 |

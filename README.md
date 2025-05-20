@@ -5,25 +5,29 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 ## Materiaal voor oefeningen
 
 | Oefening   |                                                                  |
-| ---------- | ---------------------------------------------------------------- |
+|------------|------------------------------------------------------------------|
 | Oefening 1 | [Ingevuld voorbeeld model][oefening1]                            |
 | Oefening 2 | [RDF in Turtle voorbeeld][oefening2.1]                           |
 |            | [Geoptimaliseerd Turtle voorbeeld][oefening2.2]                  |
 |            | [Online Turtle Editor][turtle-web-editor]                        |
+|            | [Data uploaden][upload]                                          |
 | Oefening 3 | [Online SPARQL Editor][yasgui]                                   |
 |            | `https://api.datasets.crow.nl/datasets/Basiscursus-LD/kg/sparql` |
 | Oefening 4 | `http://data.bibliotheken.nl/sparql`                             |
+| Cheatsheet | [Overzicht van 'need-to-knows' uit de cursus][cheatsheet]        |
 
 [turtle-web-editor]: https://felixlohmeier.github.io/turtle-web-editor/
 [yasgui]: https://yasgui.triply.cc/
 [oefening1]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/refs/heads/main/Oefeningen/Oefening1-voorbeeld.txt
 [oefening2.1]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/refs/heads/main/Oefeningen/Oefening2.1-voorbeeld.ttl
 [oefening2.2]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/refs/heads/main/Oefeningen/Oefening2.2-voorbeeld.ttl
+[cheatsheet]: https://docs.crow.nl/basiscursus-linkeddata/cheatsheet
+[upload]: https://docs.crow.nl/basiscursus-linkeddata-upload/
 
 ## Relevante links
 
 | Naslagmateriaal                                                        |                                                                         |
-| ---------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+|------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | [issemantic.net/rdf-converter][issemantic.net/rdf-converter]           | Handig online RDF convertor                                             |
 | [simplea.com/semantic-web][simplea.com/semantic-web]                   | Leuk en informatief artikel over Semantic web                           |
 | [csiro-enviro-informatics][csiro-enviro-informatics]                   | Handig overzicht van alle Semantic web standaarden                      |
@@ -49,7 +53,7 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 [sparql-murder-mystery.lindeman.it]: https://sparql-murder-mystery.lindeman.it/
 
 | CROW LinkedData                                        |                                                         |
-| ------------------------------------------------------ | ------------------------------------------------------- |
+|--------------------------------------------------------|---------------------------------------------------------|
 | [viewer.apps.crow.nl][viewer.apps.crow.nl]             | Overzicht van alle CROW model viewers                   |
 | [begrippen.crow.nl][begrippen.crow.nl]                 | Alle CROW thesauri                                      |
 | [crow.nl/imbor][crow.nl/imbor]                         | IMBOR2025 als (Linked)Data                              |
