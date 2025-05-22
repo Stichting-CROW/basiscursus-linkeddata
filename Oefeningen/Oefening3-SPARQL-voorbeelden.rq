@@ -64,5 +64,5 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 select distinct * 
 where {
  ?s schema:foundingDate ?datum .
-  FILTER (schema:foundingDate < "1999-01-01"^^xsd:date)
+  FILTER (?datum < "1999-01-01"^^xsd:date)
 } 
