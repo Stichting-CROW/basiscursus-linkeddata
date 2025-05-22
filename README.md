@@ -5,7 +5,7 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 ## Materiaal voor oefeningen
 
 | Oefening   |                                                                  |
-|------------|------------------------------------------------------------------|
+| ---------- | ---------------------------------------------------------------- |
 | Oefening 1 | [Ingevuld voorbeeld model][oefening1]                            |
 | Oefening 2 | [RDF in Turtle voorbeeld][oefening2.1]                           |
 |            | [Geoptimaliseerd Turtle voorbeeld][oefening2.2]                  |
@@ -29,7 +29,7 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 ## Relevante links
 
 | Naslagmateriaal                                                        |                                                                         |
-|------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | [issemantic.net/rdf-converter][issemantic.net/rdf-converter]           | Handig online RDF convertor                                             |
 | [simplea.com/semantic-web][simplea.com/semantic-web]                   | Leuk en informatief artikel over Semantic web                           |
 | [csiro-enviro-informatics][csiro-enviro-informatics]                   | Handig overzicht van alle Semantic web standaarden                      |
@@ -55,7 +55,7 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 [sparql-murder-mystery.lindeman.it]: https://sparql-murder-mystery.lindeman.it/
 
 | CROW LinkedData                                        |                                                         |
-|--------------------------------------------------------|---------------------------------------------------------|
+| ------------------------------------------------------ | ------------------------------------------------------- |
 | [viewer.apps.crow.nl][viewer.apps.crow.nl]             | Overzicht van alle CROW model viewers                   |
 | [begrippen.crow.nl][begrippen.crow.nl]                 | Alle CROW thesauri                                      |
 | [crow.nl/imbor][crow.nl/imbor]                         | IMBOR2025 als (Linked)Data                              |

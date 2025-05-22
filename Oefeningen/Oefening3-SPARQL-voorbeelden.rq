@@ -1,5 +1,5 @@
 ## Selecteer alles
-prefix schema: <https://schema.org/>
+prefix schema: <http://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 select * 
 where {
@@ -8,7 +8,7 @@ where {
 
 
 ## Selecteer alle personen
-prefix schema: <https://schema.org/>
+prefix schema: <http://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 select * 
 where {
@@ -17,7 +17,7 @@ where {
 
 
 ## Selecteer alle personen en waar aanwezig hun naam
-prefix schema: <https://schema.org/>
+prefix schema: <http://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 select distinct * 
 where {
@@ -27,7 +27,7 @@ where {
 
 
 ## Selecteer alle organisatie EN diegene die voor hun werken
-prefix schema: <https://schema.org/>
+prefix schema: <http://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 select distinct * 
 where {
@@ -37,7 +37,7 @@ where {
 
 
 ## Selecteer alle skills (en wie ze hebben)
-prefix schema: <https://schema.org/>
+prefix schema: <http://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 select distinct * 
 where {
@@ -46,7 +46,7 @@ where {
 
 
 ## Selecter alle FysiekeObjecten en waar aanwezig hun eigenaar
-prefix schema: <https://schema.org/>
+prefix schema: <http://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix nen2660: <https://w3id.org/nen2660/def#>
 select distinct * 
@@ -57,7 +57,7 @@ where {
 
 
 ## Selecter alles wat een FoundingDate heeft en filter op een datum
-prefix schema: <https://schema.org/>
+prefix schema: <http://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix nen2660: <https://w3id.org/nen2660/def#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
