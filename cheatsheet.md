@@ -39,22 +39,45 @@
 
 Een selectie van veelgebruikte namespaces en de meest belangrijke definities uit die vocabularia.
 
-- `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>`
-  - `rdf:type`: klasse van subject
-  - `rdf:value`: gestructureerde waarde
-  - `rdf:Property`: klasse voor predicaten
-  - `rdf:HTML`, `rdf:JSON`, `rdf:XMLLiteral`: relevante datatypes
-- `PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>`
-  - `rdfs:domain`: bij een `rdf:Property`, de af te leiden klasse van het subject
-  - `rdfs:range`: bij een `rdf:Property`, de af te leiden klasse van het object
-  - `rdfs:label`: meestgebruikte label-predicaat
-  - `rdfs:subClassOf`: voor een klassehiërarchie, overal waar subject-klasse wordt gebruikt, mag object-klasse worden gelezen
-  - `rdfs:subPropertyOf`: overal waar de subject-property wordt gebruikt als predicaat, mag het object-property worden gelezen
-  - `rdfs:Class`: de klasse van klasses
-- `PREFIX sh: <http://www.w3.org/ns/shacl#>`
-  - SHACL: Shapes constraint language
-- `PREFIX skos: <http://www.w3.org/2004/02/skos/core#>`
-  - Simple Knowledge Organisation System
+- [`rdf:` RDF voor de basis](https://www.w3.org/TR/rdf-concepts/)
+  - `rdf:type`,
+    `rdf:value`,
+    `rdf:Property`,
+    `rdf:HTML`,
+    `rdf:JSON`,
+    `rdf:XMLLiteral`
+- [`rdfs:` RDFS voor schema's](https://www.w3.org/TR/rdf-schema/)
+  - `rdfs:domain`,
+    `rdfs:range`,
+    `rdfs:label`,
+    `rdfs:subClassOf`,
+    `rdfs:subPropertyOf`,
+    `rdfs:Class`
+- [`owl:` OWL voor geavanceerde ontologieën](https://www.w3.org/TR/owl-ref/)
+  - `owl:Restriction`,
+    `owl:allValuesOf`,
+    `owl:someValuesOf`,
+    `owl:ObjectProperty`,
+    `owl:DatatypeProperty`,
+    `owl:AnnotationProperty`
+- [`sh:` SHACL voor validatie van gegevenssets](https://www.w3.org/TR/shacl/)
+  - `sh:PropertyShape`,
+    `sh:NodeShape`,
+    `sh:minCount`
+- [`dct:` DublinCore voor bibliotheekachtige metadatabeschrijvingen](http://purl.org/dc/terms/)
+  - `dct:created`,
+    `dct:author`
+- [`sdo:` of `schema:` Schema.org voor een zeer uitgebreide basisontologie](https://schema.org/)
+  - `sdo:Person`,
+    `sdo:Car`,
+    `sdo:hasPart`,
+    `sdo:mainPageOf`
+- [`skos:` SKOS voor vocabulaires](https://www.w3.org/TR/skos-reference/)
+  - `skos:prefLabel`,
+    `skos:Concept`,
+    `skos:narrower`,
+    `skos:broader`
+- [`nen2660:` Gebouwde omgeving](https://w3id.org/nen2660/def)
 
 ## Syntax
 
@@ -109,7 +132,7 @@ De meest belangrijke serialisatieformaten zijn:
 Er zijn ook serialisatieformaten die quads uitdrukken:
 
 | Triple      | Quad      | Opmerking                      |
-|-------------|-----------|--------------------------------|
+| ----------- | --------- | ------------------------------ |
 | [Turtle]    | [TriG]    | Menselijk leesbaar             |
 | [N-Triples] | [N-Quads] | Uitgeschreven triples of quads |
 | [JSON-LD]   | [JSON-LD] | JSON-gebaseerd                 |
