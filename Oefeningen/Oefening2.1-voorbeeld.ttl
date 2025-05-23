@@ -1,14 +1,15 @@
-@prefix me: <http://rik.ik/> .
 @prefix rdf: <http://www.w3.org/TR/rdf-syntax-grammar> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix nen2660: <https://w3id.org/nen2660/def#> .
-@prefix schema: <http://schema.org/> .
+@prefix schema: <https://schema.org/> .
+
+@prefix me: <http://rik.ik/> .
 
 me:RM			a						schema:Person .
 me:RM			rdfs:label				"Rikmer" .
 me:RM			schema:hasOccupation	me:Tr .
-me:RM			schema:worksFor			me:CROW .
+me:RM			schema:worksFor			<https://www.crow.nl> .
 me:RM			schema:owns				me:RMbike .
 
 me:Tr			a						schema:Occupation .

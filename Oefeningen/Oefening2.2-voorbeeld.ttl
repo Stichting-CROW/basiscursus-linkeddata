@@ -3,12 +3,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix nen2660: <https://w3id.org/nen2660/def#> .
-@prefix schema: <http://schema.org/> .
+@prefix schema: <https://schema.org/> .
 
 me:RM a schema:Person ;
     rdfs:label "Rikmer" ;
     schema:hasOccupation me:Tr ;
-    schema:worksFor me:CROW ;
+    schema:worksFor <https://www.crow.nl> ;
     schema:owns me:RMbike .
 
 me:Tr a schema:Occupation ;

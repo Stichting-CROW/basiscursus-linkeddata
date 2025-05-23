@@ -87,7 +87,7 @@ De meest belangrijke serialisatieformaten zijn:
 - **Turtle** (`.ttl`) of _Terse Triple Language_ is de meest menselijk-leesbare variant:
 
   ```ttl
-  @prefix schema: <http://schema.org/> .
+  @prefix schema: <https://schema.org/> .
 
   <http://example.org#jdj> a schema:Person ;
     schema:name "Jan de Jong" .
@@ -96,8 +96,8 @@ De meest belangrijke serialisatieformaten zijn:
 - **N-Triples** (`.nt`) is de voor lineaire computerverwerking het eenvoudigst:
 
   ```nt
-  <http://example.org#jdj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-  <http://example.org#jdj> <http://schema.org/name> "Jan de Jong" .
+  <http://example.org#jdj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
+  <http://example.org#jdj> <https://schema.org/name> "Jan de Jong" .
   ```
 
 - **JSON-LD** (`.json` of `.jsonld`) is handig voor systemen die al met JSON om kunnen gaan:
@@ -107,9 +107,9 @@ De meest belangrijke serialisatieformaten zijn:
     {
       "@id": "http://example.org#jdj",
       "@type": [
-        "http://schema.org/Person"
+        "https://schema.org/Person"
       ],
-      "http://schema.org/name": [
+      "https://schema.org/name": [
         {
           "@value": "Jan de Jong"
         }
@@ -121,9 +121,9 @@ De meest belangrijke serialisatieformaten zijn:
 - **RDF/XML** (`.rdf`) is vooral handig voor systemen die al met XML om kunnen gaan; anders af te raden:
   ```xml
   <?xml version="1.0" encoding="UTF-8"?>
-  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="https://schema.org/">
     <rdf:Description rdf:about="http://example.org#jdj">
-      <rdf:type rdf:resource="http://schema.org/Person"/>
+      <rdf:type rdf:resource="https://schema.org/Person"/>
       <schema:name>Jan de Jong</schema:name>
     </rdf:Description>
   </rdf:RDF>
@@ -132,7 +132,7 @@ De meest belangrijke serialisatieformaten zijn:
 Er zijn ook serialisatieformaten die quads uitdrukken:
 
 | Triple      | Quad      | Opmerking                      |
-| ----------- | --------- | ------------------------------ |
+|-------------|-----------|--------------------------------|
 | [Turtle]    | [TriG]    | Menselijk leesbaar             |
 | [N-Triples] | [N-Quads] | Uitgeschreven triples of quads |
 | [JSON-LD]   | [JSON-LD] | JSON-gebaseerd                 |

@@ -1,5 +1,5 @@
 # Selecteer alle Fysieke Objecten EN hun onderdelen
-prefix schema: <http://schema.org/>
+prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix nen2660: <https://w3id.org/nen2660/def#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -11,7 +11,7 @@ where {
 
 
 # Laat alles zien wat er over jou bekend is
-prefix schema: <http://schema.org/>
+prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix nen2660: <https://w3id.org/nen2660/def#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -22,7 +22,7 @@ where {
 
 
 # Laat iedereen zien die een voertuig heeft
-prefix schema: <http://schema.org/>
+prefix schema: <https://schema.org/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix nen2660: <https://w3id.org/nen2660/def#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
