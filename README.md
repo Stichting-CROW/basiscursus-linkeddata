@@ -24,7 +24,7 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 [oefening2.2]: https://raw.githubusercontent.com/Stichting-CROW/basiscursus-linkeddata/refs/heads/main/Oefeningen/Oefening2.2-voorbeeld.ttl
 [cheatsheet]: https://docs.crow.nl/basiscursus-linkeddata/cheatsheet
 [upload]: https://docs.crow.nl/basiscursus-linkeddata-upload/
-[graaf-verkenner]: https://docs.crow.nl/basiscursus-linkeddata-explore/
+[graaf-verkenner]: [https://docs.crow.nl/graph/basiscursus-linkeddata/](https://docs.crow.nl/graph/basiscursus-linkeddata/)
 
 ## Relevante links
 
