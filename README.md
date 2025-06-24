@@ -14,6 +14,7 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 |            | [Samengestelde Knowledge Graph][graaf-verkenner]                 |
 | Oefening 3 | [Online SPARQL Editor][yasgui]                                   |
 |            | `https://api.datasets.crow.nl/datasets/Basiscursus-LD/kg/sparql` |
+| | [Oefening3-SPARQL-voorbeelden.rq](https://github.com/Stichting-CROW/basiscursus-linkeddata/blob/main/Oefeningen/Oefening3-SPARQL-voorbeelden.rq) |
 | Oefening 4 | `http://data.bibliotheken.nl/sparql`                             |
 | Cheatsheet | [Overzicht van 'need-to-knows' uit de cursus][cheatsheet]        |
 
