@@ -70,5 +70,5 @@ Op deze plek zijn het cursusmateriaal en de hyperlinks te vinden die behoren bij
 [crow.nl/bor-meld2.0]: https://www.crow.nl/kennisproducten/bor-meld-20/
 [crow.nl/kor-2023]: https://www.crow.nl/kennisproducten/kwaliteitscatalogus-openbare-ruimte-2023/
 [kennisplatformcrow.nl/pcb]: https://www.kennisplatformcrow.nl/provinciaal-contractenbuffet/provinciaal-contractenbuffet/gepubliceerde-eisensets-gebruiken-in-pcb-contract
-[opleiding]: https://crow.opleidingsportaal.nl/cursussen/basiscursus-linked-data
+[opleiding]: https://www.crow.nl/cursussen/basiscursus-linked-data/
 [academie]: https://www.crow.nl/cursussen/
